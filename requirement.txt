@@ -1,0 +1,2 @@
+pip install python-dotenv
+fyers-apiv2
