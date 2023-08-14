@@ -1,76 +1,68 @@
+PERCENTAGE_PROFIT = 5
+import os
+import threading
+import json
+from datetime import date
+from fyers_api.Websocket import ws
 from fyers_api import fyersModel
+from dotenv.main import load_dotenv
 
-client_id = "SPXXXXE7-100"
-access_token = "eyJ0eXAiOiJK***.eyJpc3MiOiJhcGkuZnllcnM***.IzcuRxg4tnXiULCx3***"
+CONFIDENTIAL_PATH = 'confidential/confidential.json'
 
-fyers = fyersModel.FyersModel(client_id=client_id, token=access_token, log_path="./Log/")
+with open(CONFIDENTIAL_PATH) as json_file:
+    data = json.load(json_file)
 
-response = fyers.tradebook()
-print(response)
+# PERCENTAGE_LOSS = 10
 
------------------------------------------------------------------------------
-Sample Success Response
------------------------------------------------------------------------------
-{
-  "s": "ok",
-  "code": 200,
-  "message": "",
-  "tradeBook":
-              [{
-                "clientId":"FXXXXX",
-                "orderDateTime":"07-Aug-2020 13:51:12",
-                "orderNumber":"120080789075",
-                "exchangeOrderNo": "1200000009204725",
-                "exchange":10,
-                "side":1,
-                "segment":10,
-                "orderType":2,
-                "fyToken":"101000000010666",
-                "productType":"CNC",
-                "tradedQty":10,
-                "tradePrice":32.7,
-                "tradeValue":327.0,
-                "tradeNumber":"52605023",
-                "id":"52605023",
-                "row":1,
-                "symbol":"NSE:PNB-EQ"
-              },
-              {
-                "clientId":"FXXXXX",
-                "orderDateTime":"07-Aug-2020 13:48:12",
-                "orderNumber":"120080789139",
-                "exchangeOrderNo": "1000000012031528",
-                "exchange":10,
-                "side":1,
-                "segment":10,
-                "orderType":2,
-                "fyToken":"101000000010454",
-                "productType":"CNC",
-                "tradedQty":19,
-                "tradePrice":14.1,
-                "tradeValue":267.9,
-                "tradeNumber":"3281523",
-                "id":"3281523",
-                "row":3,
-                "symbol":"NSE:CENTRUM-EQ"
-              },
-              {
-                "clientId":"FXXXXX1",
-                "orderDateTime":"07-Aug-2020 13:47:22",
-                "orderNumber":"120080797993",
-                "exchangeOrderNo": "1100000008047027",
-                "exchange":10,
-                "side":1,
-                "segment":10,
-                "orderType":2,
-                "fyToken":"101000000018783",
-                "productType":"CNC",
-                "tradedQty":4,
-                "tradePrice":115.5,
-                "tradeValue":462.0,
-                "tradeNumber":"27945307",
-                "id":"27945307",
-                "row":4,
-                "symbol":"NSE:IDFNIFTYET-EQ"
-              }]
-}
+# price_difference_copy=200
+
+# take_profit = (price_difference_copy * PERCENTAGE_PROFIT) / 100
+# stop_loss = (price_difference_copy * PERCENTAGE_LOSS) / 100
+# data1 = take_profit + price_difference_copy
+# data2 = price_difference_copy - stop_loss
+# print(data1)
+# print(data2)
+
+# # price_difference = msg[0]['ltp'] - data["First_value_of_day"]
+
+# # price_difference_copy = msg[0]['ltp']
+
+# # Calculate equity difference
+# equity_difference = 500
+# if equity_difference > equity_difference - 50:
+#     print('adsvffsd')
+# else:
+#     print('acasdfrwebwebwer')
+sdv = True
+while True:
+    equity_difference = int(input())
+    # if equity_difference < data["takeProfit"] - 50:
+
+    if data["most_target_today"] > equity_difference:
+        print('a3545453453453435d')
+
+        if equity_difference > data["takeProfit"] - 50 and sdv:
+            
+    #         modify_order(data["stopLoss"] + 50,data["takeProfit"] + 50)
+            data["takeProfit"] = data["takeProfit"] + 50
+    #         data["stopLoss"] = data["stopLoss"] + 50
+            json_object = json.dumps(data, indent=4)
+            with open(CONFIDENTIAL_PATH, "w") as outfile:
+                outfile.write(json_object)
+    # if data["most_target_today"] < equity_difference:
+            if data["most_target_today"] <= data["takeProfit"]:
+                print('54654654654654654fsd')
+                sdv = False
+                # print()
+
+            print('adsvffsd')
+        else:
+            print('aadljvmkjwsdmvuwdsvffsd')
+
+
+        # modify_order(data["stopLoss"] + 50,data["takeProfit"] + 50)
+        # data["takeProfit"] = data["takeProfit"] + 50
+        # data["stopLoss"] = data["stopLoss"] + 50
+        # json_object = json.dumps(data, indent=4)
+        # with open(CONFIDENTIAL_PATH, "w") as outfile:
+        #     outfile.write(json_object)
