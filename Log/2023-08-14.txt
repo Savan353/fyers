@@ -1,0 +1,158 @@
+
+1691984641179 :: funds :: None :: 1691984641429 :: {'s': 'ok', 'code': 200, 'message': '', 'fund_limit': [{'id': 3, 'title': 'Clear Balance', 'equityAmount': 4990.86, 'commodityAmount': 0}, {'id': 1, 'title': 'Total Balance', 'equityAmount': 4990.86, 'commodityAmount': 0}, {'id': 7, 'title': 'Receivables', 'equityAmount': 0, 'commodityAmount': 0}, {'id': 4, 'title': 'Realized Profit and Loss', 'equityAmount': 0, 'commodityAmount': 0}, {'id': 2, 'title': 'Utilized Amount', 'equityAmount': 0, 'commodityAmount': 0}, {'id': 5, 'title': 'Collaterals', 'equityAmount': 0, 'commodityAmount': 0}, {'id': 8, 'title': 'Adhoc Limit', 'equityAmount': 0, 'commodityAmount': 0}, {'id': 10, 'title': 'Available Balance', 'equityAmount': 4990.86, 'commodityAmount': 0}, {'id': 6, 'title': 'Fund Transfer', 'equityAmount': 0, 'commodityAmount': 0}, {'id': 9, 'title': 'Limit at start of the day', 'equityAmount': 4990.86, 'commodityAmount': 0}]}
+
+1691984700680 :: place_order ::  :: 1691984700797 :: {'s': 'error', 'code': -391, 'message': 'Order Quantity should be in multiples of lot size.', 'id': ''}
+
+1691984936400 :: positions ::  :: 1691984936627 :: {'s': 'ok', 'code': 200, 'message': '', 'netPositions': [{'symbol': 'NSE:BANKNIFTY2381744100PE', 'id': 'NSE:BANKNIFTY2381744100PE-INTRADAY', 'buyAvg': 289.25, 'buyQty': 15, 'buyVal': 4338.75, 'sellAvg': 297.15, 'sellQty': 15, 'sellVal': 4457.25, 'netAvg': 0, 'netQty': 0, 'side': 0, 'qty': 0, 'productType': 'INTRADAY', 'realized_profit': 118.49999999999966, 'crossCurrency': '', 'qtyMulti_com': 1, 'segment': 11, 'ltp': 316.75, 'fyToken': '101123081739016', 'exchange': 10, 'unrealized_profit': 0, 'dayBuyQty': 15, 'cfBuyQty': 0, 'daySellQty': 15, 'cfSellQty': 0, 'rbiRefRate': 1, 'pl': 118.49999999999966, 'slNo': 0, 'avgPrice': 0}], 'overall': {'count_open': 0, 'count_total': 1, 'pl_realized': 118.49999999999966, 'pl_total': 118.49999999999966, 'pl_unrealized': 0}}
+
+1691985295228 :: positions ::  :: 1691985295477 :: {'s': 'ok', 'code': 200, 'message': '', 'netPositions': [{'symbol': 'NSE:BANKNIFTY2381744100PE', 'id': 'NSE:BANKNIFTY2381744100PE-INTRADAY', 'buyAvg': 289.25, 'buyQty': 15, 'buyVal': 4338.75, 'sellAvg': 297.15, 'sellQty': 15, 'sellVal': 4457.25, 'netAvg': 0, 'netQty': 0, 'side': 0, 'qty': 0, 'productType': 'INTRADAY', 'realized_profit': 118.49999999999966, 'crossCurrency': '', 'qtyMulti_com': 1, 'segment': 11, 'ltp': 357.8, 'fyToken': '101123081739016', 'exchange': 10, 'unrealized_profit': 0, 'dayBuyQty': 15, 'cfBuyQty': 0, 'daySellQty': 15, 'cfSellQty': 0, 'rbiRefRate': 1, 'pl': 118.49999999999966, 'slNo': 0, 'avgPrice': 0}], 'overall': {'count_open': 0, 'count_total': 1, 'pl_realized': 118.49999999999966, 'pl_total': 118.49999999999966, 'pl_unrealized': 0}}
+
+1691986024827 :: holdings :: None :: 1691986025080 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986059001 :: holdings :: None :: 1691986059188 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986079243 :: holdings :: None :: 1691986079449 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986085559 :: holdings :: None :: 1691986085853 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986095056 :: holdings :: None :: 1691986095246 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986259248 :: holdings :: None :: 1691986259506 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986467404 :: holdings :: None :: 1691986467695 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986717452 :: holdings :: None :: 1691986717726 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986767108 :: holdings :: None :: 1691986767294 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986788534 :: holdings :: None :: 1691986788776 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986804970 :: holdings :: None :: 1691986805196 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986815239 :: holdings :: None :: 1691986815437 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986833457 :: holdings :: None :: 1691986833704 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986841202 :: holdings :: None :: 1691986841434 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986906891 :: holdings :: None :: 1691986907138 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986932730 :: holdings :: None :: 1691986932914 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691986934513 :: holdings :: None :: 1691986934705 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987020129 :: holdings :: None :: 1691987020402 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987028512 :: holdings :: None :: 1691987028692 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987053437 :: holdings :: None :: 1691987053621 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987055516 :: holdings :: None :: 1691987055709 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987107940 :: holdings :: None :: 1691987108162 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987128813 :: holdings :: None :: 1691987129004 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987183295 :: holdings :: None :: 1691987183589 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987189194 :: holdings :: None :: 1691987189381 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987231445 :: holdings :: None :: 1691987231666 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987486323 :: holdings :: None :: 1691987486575 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987841502 :: holdings :: None :: 1691987841776 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987895473 :: holdings :: None :: 1691987895656 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987902863 :: holdings :: None :: 1691987903050 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987903051 :: holdings :: None :: 1691987903292 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987903793 :: holdings :: None :: 1691987903970 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987904471 :: holdings :: None :: 1691987904656 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987905158 :: holdings :: None :: 1691987905347 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987905848 :: holdings :: None :: 1691987906034 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987906536 :: holdings :: None :: 1691987906724 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987907226 :: holdings :: None :: 1691987907436 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987907937 :: holdings :: None :: 1691987908115 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987908617 :: holdings :: None :: 1691987908790 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987928381 :: holdings :: None :: 1691987928679 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987928680 :: holdings :: None :: 1691987928868 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987929370 :: holdings :: None :: 1691987929553 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987930054 :: holdings :: None :: 1691987930229 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987930730 :: holdings :: None :: 1691987930917 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987931418 :: holdings :: None :: 1691987931627 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691987932129 :: holdings :: None :: 1691987932307 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988016994 :: holdings :: None :: 1691988017223 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988024395 :: holdings :: None :: 1691988024586 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988024587 :: holdings :: None :: 1691988024773 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988035597 :: holdings :: None :: 1691988035832 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988037974 :: holdings :: None :: 1691988038170 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988039532 :: holdings :: None :: 1691988039702 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988040849 :: holdings :: None :: 1691988041036 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988042027 :: holdings :: None :: 1691988042194 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988043270 :: holdings :: None :: 1691988043467 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988051455 :: holdings :: None :: 1691988051643 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988051645 :: holdings :: None :: 1691988051837 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988053563 :: holdings :: None :: 1691988053758 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988055064 :: holdings :: None :: 1691988055251 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988056653 :: holdings :: None :: 1691988056829 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988068462 :: holdings :: None :: 1691988068672 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988068672 :: holdings :: None :: 1691988068853 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988075563 :: holdings :: None :: 1691988075746 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988076954 :: holdings :: None :: 1691988077139 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988078162 :: holdings :: None :: 1691988078354 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988079496 :: holdings :: None :: 1691988079685 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988080751 :: holdings :: None :: 1691988080955 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988082299 :: holdings :: None :: 1691988082478 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691988688593 :: holdings :: None :: 1691988688837 :: {'s': 'ok', 'code': 200, 'message': '', 'holdings': [], 'overall': {'count_total': 0, 'pnl_perc': 0, 'total_current_value': 0, 'total_investment': 0, 'total_pl': 0}}
+
+1691989712515 :: place_order ::  :: 1691989712855 :: {'s': 'ok', 'code': 1101, 'message': 'Order Submitted Successfully. Your Order Ref. No. 23081400126034', 'id': '23081400126034-BO-1'}
+
+1691989934057 :: positions ::  :: 1691989934325 :: {'s': 'ok', 'code': 200, 'message': '', 'netPositions': [{'symbol': 'NSE:BANKNIFTY2381742000PE', 'id': 'NSE:BANKNIFTY2381742000PE-BO', 'buyAvg': 7.25, 'buyQty': 15, 'buyVal': 108.75, 'sellAvg': 0, 'sellQty': 0, 'sellVal': 0, 'netAvg': 7.25, 'netQty': 15, 'side': 1, 'qty': 15, 'productType': 'BO', 'realized_profit': 0, 'crossCurrency': '', 'qtyMulti_com': 1, 'segment': 11, 'ltp': 7.35, 'fyToken': '101123081738953', 'exchange': 10, 'unrealized_profit': 1.4999999999999947, 'dayBuyQty': 15, 'cfBuyQty': 0, 'daySellQty': 0, 'cfSellQty': 0, 'rbiRefRate': 1, 'pl': 1.4999999999999947, 'slNo': 0, 'avgPrice': 0}, {'symbol': 'NSE:BANKNIFTY2381744100PE', 'id': 'NSE:BANKNIFTY2381744100PE-INTRADAY', 'buyAvg': 289.25, 'buyQty': 15, 'buyVal': 4338.75, 'sellAvg': 297.15, 'sellQty': 15, 'sellVal': 4457.25, 'netAvg': 0, 'netQty': 0, 'side': 0, 'qty': 0, 'productType': 'INTRADAY', 'realized_profit': 118.49999999999966, 'crossCurrency': '', 'qtyMulti_com': 1, 'segment': 11, 'ltp': 330, 'fyToken': '101123081739016', 'exchange': 10, 'unrealized_profit': 0, 'dayBuyQty': 15, 'cfBuyQty': 0, 'daySellQty': 15, 'cfSellQty': 0, 'rbiRefRate': 1, 'pl': 118.49999999999966, 'slNo': 0, 'avgPrice': 0}], 'overall': {'count_open': 1, 'count_total': 2, 'pl_realized': 118.49999999999966, 'pl_total': 119.99999999999966, 'pl_unrealized': 1.4999999999999947}}
+
+1691989983490 :: orderBook ::  :: 1691989983849 :: {'s': 'ok', 'code': 200, 'message': '', 'orderBook': [{'clientId': 'XS83964', 'id': '23081400006046', 'exchOrdId': '', 'qty': 30, 'remainingQuantity': 0, 'filledQty': 0, 'discloseQty': 0, 'limitPrice': 0, 'stopPrice': 0, 'tradedPrice': 0, 'type': 2, 'fyToken': '101123081739016', 'exchange': 10, 'segment': 11, 'symbol': 'NSE:BANKNIFTY2381744100PE', 'instrument': 14, 'message': 'RED:Margin Shortfall:INR 3,067.14 Available:INR 4,990.86 for C-XS83964 [FYERS_RISK_CUG]', 'offlineOrder': False, 'orderDateTime': '14-Aug-2023 09:15:33', 'orderValidity': 'DAY', 'pan': '', 'productType': 'INTRADAY', 'side': 1, 'status': 5, 'source': 'M', 'ex_sym': 'BANKNIFTY', 'description': '23 Aug 17 44100 PE', 'ch': 176.1, 'chp': 120.04, 'lp': 322.8, 'slNo': 1, 'dqQtyRem': 0, 'orderNumStatus': '23081400006046:5', 'disclosedQty': 0}, {'clientId': 'XS83964', 'id': '23081400007620', 'exchOrdId': '1800000000732655', 'qty': 15, 'remainingQuantity': 0, 'filledQty': 15, 'discloseQty': 0, 'limitPrice': 289.25, 'stopPrice': 0, 'tradedPrice': 289.25, 'type': 2, 'fyToken': '101123081739016', 'exchange': 10, 'segment': 11, 'symbol': 'NSE:BANKNIFTY2381744100PE', 'instrument': 14, 'message': '', 'offlineOrder': False, 'orderDateTime': '14-Aug-2023 09:16:00', 'orderValidity': 'DAY', 'pan': '', 'productType': 'INTRADAY', 'side': 1, 'status': 2, 'source': 'M', 'ex_sym': 'BANKNIFTY', 'description': '23 Aug 17 44100 PE', 'ch': 176.1, 'chp': 120.04, 'lp': 322.8, 'slNo': 2, 'dqQtyRem': 0, 'orderNumStatus': '23081400007620:2', 'disclosedQty': 0}, {'clientId': 'XS83964', 'id': '23081400012905', 'exchOrdId': '1800000002151728', 'qty': 15, 'remainingQuantity': 0, 'filledQty': 15, 'discloseQty': 0, 'limitPrice': 297.15, 'stopPrice': 0, 'tradedPrice': 297.15, 'type': 2, 'fyToken': '101123081739016', 'exchange': 10, 'segment': 11, 'symbol': 'NSE:BANKNIFTY2381744100PE', 'instrument': 14, 'message': '', 'offlineOrder': False, 'orderDateTime': '14-Aug-2023 09:17:39', 'orderValidity': 'DAY', 'pan': '', 'productType': 'INTRADAY', 'side': -1, 'status': 2, 'source': 'M', 'ex_sym': 'BANKNIFTY', 'description': '23 Aug 17 44100 PE', 'ch': 176.1, 'chp': 120.04, 'lp': 322.8, 'slNo': 3, 'dqQtyRem': 0, 'orderNumStatus': '23081400012905:2', 'disclosedQty': 0}, {'clientId': 'XS83964', 'id': '23081400126035-BO-2', 'parentId': '23081400126034-BO-1', 'exchOrdId': '1700000040494998', 'qty': 15, 'remainingQuantity': 15, 'filledQty': 0, 'discloseQty': 0, 'limitPrice': 1.15, 'stopPrice': 1.25, 'tradedPrice': 0, 'type': 4, 'fyToken': '101123081738953', 'exchange': 10, 'segment': 11, 'symbol': 'NSE:BANKNIFTY2381742000PE', 'instrument': 14, 'message': '', 'offlineOrder': False, 'orderDateTime': '14-Aug-2023 10:38:32', 'orderValidity': 'DAY', 'pan': '', 'productType': 'BO', 'side': -1, 'status': 6, 'source': 'SNO', 'ex_sym': 'BANKNIFTY', 'description': '23 Aug 17 42000 PE', 'ch': 2.3, 'chp': 43.4, 'lp': 7.6, 'slNo': 4, 'dqQtyRem': 0, 'orderNumStatus': '23081400126035-BO-2:6', 'disclosedQty': 0}, {'clientId': 'XS83964', 'id': '23081400126034-BO-1', 'exchOrdId': '1700000040494955', 'qty': 15, 'remainingQuantity': 0, 'filledQty': 15, 'discloseQty': 0, 'limitPrice': 7.25, 'stopPrice': 0, 'tradedPrice': 7.25, 'type': 2, 'fyToken': '101123081738953', 'exchange': 10, 'segment': 11, 'symbol': 'NSE:BANKNIFTY2381742000PE', 'instrument': 14, 'message': '', 'offlineOrder': False, 'orderDateTime': '14-Aug-2023 10:38:32', 'orderValidity': 'DAY', 'pan': '', 'productType': 'BO', 'side': 1, 'status': 2, 'source': 'API', 'ex_sym': 'BANKNIFTY', 'description': '23 Aug 17 42000 PE', 'ch': 2.3, 'chp': 43.4, 'lp': 7.6, 'slNo': 5, 'dqQtyRem': 0, 'orderNumStatus': '23081400126034-BO-1:2', 'disclosedQty': 0}, {'clientId': 'XS83964', 'id': '23081400126036-BO-3', 'parentId': '23081400126034-BO-1', 'exchOrdId': '1700000040494999', 'qty': 15, 'remainingQuantity': 15, 'filledQty': 0, 'discloseQty': 0, 'limitPrice': 15.75, 'stopPrice': 0, 'tradedPrice': 0, 'type': 1, 'fyToken': '101123081738953', 'exchange': 10, 'segment': 11, 'symbol': 'NSE:BANKNIFTY2381742000PE', 'instrument': 14, 'message': '', 'offlineOrder': False, 'orderDateTime': '14-Aug-2023 10:38:32', 'orderValidity': 'DAY', 'pan': '', 'productType': 'BO', 'side': -1, 'status': 6, 'source': 'SNO', 'ex_sym': 'BANKNIFTY', 'description': '23 Aug 17 42000 PE', 'ch': 2.3, 'chp': 43.4, 'lp': 7.6, 'slNo': 6, 'dqQtyRem': 0, 'orderNumStatus': '23081400126036-BO-3:6', 'disclosedQty': 0}]}
+
+1691990883981 :: modify_order :: {'id': '23081400126034-BO-1', 'type': 2, 'stopLoss': 6.5, 'takeProfit': 9.0} :: 1691990884213 :: {'s': 'error', 'code': -52, 'message': 'Not a pending order', 'id': '23081400126034-BO-1'}
+
+1691990961089 :: modify_order :: {'id': '23081400126034', 'type': 2, 'stopLoss': 6.5, 'takeProfit': 9.0} :: 1691990961334 :: {'s': 'error', 'code': -52, 'message': 'Not a pending order', 'id': '23081400126034'}
+
+1691991289670 :: exit_positions :: {} :: 1691991290965 :: {'s': 'ok', 'code': 1101, 'message': 'Position NSE:BANKNIFTY2381742000PE-BO is closed.'}

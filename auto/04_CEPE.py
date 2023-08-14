@@ -1,6 +1,14 @@
+"""
+This script processes data related to index options trading and updates confidential
+information in a JSON file.
+
+Author: Savan Sutariya
+Date: August 13, 2023
+"""
 import json
 import pandas as pd
 
+# Path to the confidential JSON file
 CONFIDENTIAL_PATH = 'confidential/confidential.json'
 
 # Open the JSON file containing confidential data
@@ -10,7 +18,7 @@ with open(CONFIDENTIAL_PATH) as json_file:
 # Load previous close from JSON
 previous_close = data['previous_close']
 
-def expiry_date_index():
+def get_expiry_date_index():
     """
     Fetch the expiry date for NIFTY BANK index from a CSV file.
     
@@ -51,7 +59,7 @@ def select_expiry_index(ltp, expiry_date, ce_pe):
     with open(CONFIDENTIAL_PATH, "w") as outfile:
         outfile.write(updated_json)
 
-def find_CE_PE(expiry_date):
+def determine_ce_pe(expiry_date):
     """
     Determine whether to select CE or PE based on LTP and previous close.
     
@@ -73,9 +81,9 @@ def main():
     Returns:
         None
     """
-    expiry_date = expiry_date_index()
-    find_CE_PE(expiry_date)
+    expiry_date = get_expiry_date_index()
+    determine_ce_pe(expiry_date)
+    print("CEPE has been updated and saved in 'confidential.json'")
 
 if __name__ == '__main__':
     main()
-    print("CEPE has been updated and saved in 'confidential.json'")
