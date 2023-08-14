@@ -1,37 +1,69 @@
+"""
+This script fetches the last price of a financial index from a URL, updates a JSON file
+with the new price, and informs the user about the update.
+
+Dependencies:
+    - requests
+    - BeautifulSoup
+    - json
+
+Usage:
+    Modify the CONFIDENTIAL_PATH variable to specify the path to the JSON file.
+    Run the script to fetch the last price, update the JSON data, and inform the user.
+
+Author: Savan Sutariya
+Date: August 13, 2023
+"""
+import json
 import requests
 from bs4 import BeautifulSoup
-import json
 
 CONFIDENTIAL_PATH = 'confidential/confidential.json'
 
-# Load JSON data from file
-with open(CONFIDENTIAL_PATH) as json_file:
-    data = json.load(json_file)
+def fetch_last_price(url):
+    """
+    Fetches the last price from a given URL.
 
-# URL for the last price
-last_price_url = 'https://www.google.com/finance/quote/NIFTY_BANK:INDEXNSE?hl=en'
+    Args:
+        url (str): The URL to fetch the last price from.
 
-# Send a GET request to fetch the HTML content
-response = requests.get(last_price_url)
+    Returns:
+        float: The last price as a floating-point number.
+    """
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, "html.parser")
+    last_price_element = soup.find(class_='YMlKec fxKbKc')
+    cleaned_last_price = float(last_price_element.text.replace(',', ''))
+    return cleaned_last_price
 
-# Parse the HTML content using BeautifulSoup
-soup = BeautifulSoup(response.text, "html.parser")
+def update_json_last_price(json_path, last_price):
+    """
+    Updates the last price in a JSON file.
 
-# Find the element containing the last price using its class
-last_price_element = soup.find(class_='YMlKec fxKbKc')
+    Args:
+        json_path (str): The path to the JSON file.
+        last_price (float): The new last price to be updated.
+    """
+    with open(json_path, 'r') as json_file:
+        data = json.load(json_file)
+    
+    data["previous_close"] = last_price
+    
+    updated_json = json.dumps(data, indent=4)
+    
+    with open(json_path, 'w') as json_file:
+        json_file.write(updated_json)
 
-# Clean the extracted text (remove commas) and convert to float
-cleaned_last_price = float(last_price_element.text.replace(',', ''))
+def main():
+    """
+    Main function to fetch the last price, update JSON data, and inform the user.
+    """
+    last_price_url = 'https://www.google.com/finance/quote/NIFTY_BANK:INDEXNSE?hl=en'
 
-# Update the JSON data with the new last price
-data["previous_close"] = cleaned_last_price
+    cleaned_last_price = fetch_last_price(last_price_url)
+    update_json_last_price(CONFIDENTIAL_PATH, cleaned_last_price)
 
-# Convert the updated data back to a formatted JSON string
-updated_json = json.dumps(data, indent=4)
+    print("Last price has been updated and saved in 'confidential.json'")
 
-# Write the updated JSON back to the file
-with open(CONFIDENTIAL_PATH, "w") as json_file:
-    json_file.write(updated_json)
-
-# Inform the user about the update
-print("Last price has been updated and saved in 'confidential.json'")
+if __name__ == "__main__":
+    main()

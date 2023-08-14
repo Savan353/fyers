@@ -1,12 +1,20 @@
 {
-    "auth_code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuZnllcnMuaW4iLCJpYXQiOjE2OTE1ODM0MDcsImV4cCI6MTY5MTYyNzQ0NywibmJmIjoxNjkxNTgzNDA3LCJhdWQiOlsieDowIiwieDoxIiwieDoyIiwiZDoxIiwiZDoyIiwieDoxIiwieDowIl0sInN1YiI6ImFjY2Vzc190b2tlbiIsImF0X2hhc2giOiJnQUFBQUFCazA0T3ZSZk9DRHNKaWNBbmFHSkw0V3pGZl8tZm5pZXdJYUdDYzJiaDVJMFF4MGJLZkxMQTZKdVFOcEJQVEZ3anhvUlBQN0xmaURURjcwY2lYRHItNWZHNUhFUzFfS21NRjRRZGJ6T2VpWE9LV0s0MD0iLCJkaXNwbGF5X25hbWUiOiJTVVRBUklZQSAgU0FWQU4iLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIwNWEzNzhhZGRlNTNjYzVhZmI5ZjAyYTUzODM0ZDYxYzJlNDY2NTUzZDFjMjk1ZGNiZDkwOTM0MyIsImZ5X2lkIjoiWFM4Mzk2NCIsImFwcFR5cGUiOjEwMCwicG9hX2ZsYWciOiJOIn0.3WcV2I93qkgqMx3Bf-4Nr4SdrvjCgIgjyFhECjm7vDQ",
+    "auth_code": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuZnllcnMuaW4iLCJpYXQiOjE2OTE5MDI3NjEsImV4cCI6MTY5MTk3MzAyMSwibmJmIjoxNjkxOTAyNzYxLCJhdWQiOlsieDowIiwieDoxIiwieDoyIiwiZDoxIiwiZDoyIiwieDoxIiwieDowIl0sInN1YiI6ImFjY2Vzc190b2tlbiIsImF0X2hhc2giOiJnQUFBQUFCazJHTXBxcmZNOVJYNEVCM2xxUE11Z2t5bk1RcmVlUnNLMFlSMHpKamtPYVYyVzBPYnRJdEppc1dJU05xYmU1NWVBOEU4MUNta0xTN3JjQUxpUjdybG1VOTFSQXR3U1NpZzBUcEhlRlMwRmdCU2ZXUT0iLCJkaXNwbGF5X25hbWUiOiJTVVRBUklZQSAgU0FWQU4iLCJvbXMiOiJLMSIsImhzbV9rZXkiOiIwNWEzNzhhZGRlNTNjYzVhZmI5ZjAyYTUzODM0ZDYxYzJlNDY2NTUzZDFjMjk1ZGNiZDkwOTM0MyIsImZ5X2lkIjoiWFM4Mzk2NCIsImFwcFR5cGUiOjEwMCwicG9hX2ZsYWciOiJOIn0.TWQxqYadgddqdYK9M3X3Ie77CjL_zDyKJ3g2OOTKw04",
     "refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcGkuZnllcnMuaW4iLCJpYXQiOjE2OTE1MDk2NjYsImV4cCI6MTY5Mjc1MDY0NiwibmJmIjoxNjkxNTA5NjY2LCJhdWQiOlsieDowIiwieDoxIiwieDoyIiwiZDoxIiwiZDoyIiwieDoxIiwieDowIl0sInN1YiI6InJlZnJlc2hfdG9rZW4iLCJhdF9oYXNoIjoiZ0FBQUFBQmswbU9pdWxFNGlkX01ZZm5Sc3pvSGZtQUVVUkQxZHlPT1RMQmdFNkUzdzQ4WFFCcE5MYlFZY0RkTGtjTmhSbEVSQUx5YTRRUXhZT0NYM0diVWtaX0lwRDhjMVpkTV9YX3haNy1GclhvOEdrNjdfQjA9IiwiZGlzcGxheV9uYW1lIjoiU1VUQVJJWUEgIFNBVkFOIiwib21zIjoiSzEiLCJoc21fa2V5IjoiMDVhMzc4YWRkZTUzY2M1YWZiOWYwMmE1MzgzNGQ2MWMyZTQ2NjU1M2QxYzI5NWRjYmQ5MDkzNDMiLCJmeV9pZCI6IlhTODM5NjQiLCJhcHBUeXBlIjoxMDAsInBvYV9mbGFnIjoiTiJ9.Wbl5Q0gj4HyWLORyycpC92clsfX21RpgH1cyaV2ZkUM",
-    "LTP": 44880.7,
-    "index": "NSE:BANKNIFTY2381044900PE",
-    "previous_close": 44880.7,
-    "Available_Balance": 0,
-    "Lot_size": 7,
-    "First_value_of_day": 176.0,
+    "LTP": 44321.7,
+    "index": "NSE:BANKNIFTY2381744300PE",
+    "previous_close": 44199.1,
+    "Available_Balance": 20000,
+    "Lot_size": 6,
+    "First_value_of_day": 220.7,
     "order_ID": "",
-    "Today_date": "2023-08-09"
+    "Today_date": "2023-08-11",
+    "orderbook_order_LTP": "",
+    "tradebook_order_LTP": "",
+    "Target_price": 2000,
+    "takeProfit": 1000,
+    "stopLoss": 0,
+    "most_profit_today": 1000,
+    "limit": "true",
+    "positions_value": 0
 }
