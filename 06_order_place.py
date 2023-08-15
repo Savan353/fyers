@@ -1,35 +1,50 @@
+import os
+import threading
+import json
+from datetime import date
+from fyers_api.Websocket import ws
 from fyers_api import fyersModel
 from dotenv.main import load_dotenv
-import os
-import json
 
-def place_order():
-    #to load ENV file
-    load_dotenv()
+CONFIDENTIAL_PATH = 'confidential/confidential.json'
+PERCENTAGE_PROFIT = 5
+PERCENTAGE_LOSS = 10
+MOST_TARGET_TODAY = 20
 
-    # Opening JSON file
-    f = open('confidential.json')
-    
-    # returns JSON object as 
-    data = json.load(f)
+# Returns the current local date
+today = date.today()
 
-    client_id = os.environ.get("client_id")
-    access_token = data['auth_code']
+formatted_date = today.strftime("%Y-%m-%d")  # Format as "YYYY-MM-DD"
 
-    fyers = fyersModel.FyersModel(client_id=client_id, token=access_token, log_path="./Log/")
+# Lot size for trading
+LOT_SIZE = 15
+FIRST_DATA = True
 
-    data = {
-        "symbol":data['index'],
-        "qty":data['Lot_size'],
-        "type":2,
-        "side":1,
-        "productType":"INTRADAY",
-        "limitPrice":0,
-        "stopPrice":0,
-        "validity":"DAY",
-        "disclosedQty":0,
-        "offlineOrder":"False",
+# Load environment variables from .env file
+load_dotenv()
+
+# Open the JSON file containing confidential data
+with open(CONFIDENTIAL_PATH) as json_file:
+    data = json.load(json_file)
+
+client_id = os.environ.get("client_id")
+access_token = data['auth_code']
+
+fyers = fyersModel.FyersModel(client_id=client_id, token=access_token, log_path="./Log/")
+
+def modify_order(stop_loss,take_profit):
+
+    data_order = {
+    "id":data["order_ID"], 
+    "type":2, 
+    "stopLoss": stop_loss, 
+    "takeProfit": take_profit
     }
+    response = fyers.modify_order(data=data_order)
+    print(response)
 
-    response = fyers.place_order(data=data)
-    # print(response)
+# modify_order(data["stopLoss"] + 0.5,data["takeProfit"] + 0.5)
+data = {}
+
+response = fyers.exit_positions(data=data)
+print(response)
